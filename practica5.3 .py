@@ -3,7 +3,7 @@
 #la contraseña hasta que introduzca la contraseña correcta.
 
 contraseña_correcta = "si"
-while True
+while True:
     contraseña = input("introduce la contraseña: ")
     if contraseña == contraseña_correcta:
         print("contraseña correcta")
